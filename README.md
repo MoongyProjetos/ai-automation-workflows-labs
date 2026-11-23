@@ -89,4 +89,71 @@ Ao longo da formação, será desenvolvido um projeto prático que permitirá ap
 
 Durante a formação, será desenvolvida uma solução de recrutamento inteligente, utilizando agentes de AI e workflows automatizados para apoiar os processos de análise e comparação de candidatos.
 
-O projeto será desenvolvido
+O projeto será desenvolvido progressivamente ao longo das quatro sessões.
+
+### 🏢 WebApp — Recrutador
+
+- Criação e gestão de oportunidades de emprego.
+- Submissão de currículos (CVs).
+- Gestão da informação dos candidatos e oportunidades.
+
+### 🤖 WebApp — Análise Técnica
+
+- Agente de AI para verificar a adequação do candidato à oportunidade.
+- Agente de AI para elaboração de pareceres técnicos.
+- Persistência dos resultados numa base de dados SQL.
+
+### 🔄 Agente Comparador — Oportunidades e Currículos
+
+- Execução periódica através de workflows agendados.
+- Comparação entre oportunidades disponíveis e currículos submetidos.
+- Identificação de potenciais correspondências.
+- Geração de recomendações com base nos resultados da análise.
+
+### 🎯 Objetivos do Projeto
+
+Ao concluir o projeto, os participantes terão explorado:
+
+- Integração de LLMs com aplicações.
+- Construção e orquestração de agentes de AI.
+- Structured Outputs e Tool Calling.
+- Integração com APIs e serviços externos.
+- Workflows automatizados e agendamento de tarefas.
+- Persistência e consulta de informação.
+- Segurança, logging e observabilidade.
+- Human-in-the-loop e supervisão humana das recomendações.
+
+## 📂 Estrutura do Repositório
+
+```text
+ai-automation-workflows-labs/
+│
+├── Documentação/
+│   └── Imagens/
+│
+├── Labs/
+│   ├── Session-01-Architecture/
+│   ├── Session-02-AI-Integration/
+│   ├── Session-03-Workflow-Automation/
+│   └── Session-04-Security-Governance/
+│
+├── RecruitmentPlatform/
+│   ├── WebApp.Recruiter/
+│   ├── WebApp.TechnicalAnalysis/
+│   ├── Agents/
+│   ├── Workflows/
+│   └── Infrastructure/
+│
+└── README.md
+```
+
+## 👨‍🏫 Modalidade
+
+- **Carga Horária**: 8 horas.
+- **Formato**: 4 sessões de 2 horas.
+- **Modalidade**: Remoto (via Microsoft Teams).
+- **Público-alvo**: Developers, Cloud Engineers, Software Engineers e profissionais técnicos.
+
+---
+
+> © MoOngy | Este repositório é parte do programa de formação contínua em Engenharia de Software e Inteligência Artificial.
